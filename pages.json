@@ -1,0 +1,64 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationBarTextStyle": "#f00"
+      }
+    },
+    {
+      "path": "pages/best_sellers/best-sellers",
+      "style": {
+        "navigationBarTitleText": "热卖"
+      }
+    },
+    {
+      "path": "pages/circle/circle",
+      "style": {
+        "navigationBarTitleText": "圈子"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "#000",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "height": "80px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/images/index-icon.png",
+        "selectedIconPath": "./static/images/index-active.png"
+      },
+      {
+        "pagePath": "pages/best_sellers/best-sellers",
+        "text": "热卖",
+        "iconPath": "./static/images/best-sellers.png",
+        "selectedIconPath": "./static/images/best-sellers-active.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "圈子",
+        "iconPath": "static/images/circle-icon.png",
+        "selectedIconPath": "./static/images/circle-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./static/images/mine-icon.png",
+        "selectedIconPath": "./static/images/mine-active.png"
+      }
+    ]
+  }
+}
